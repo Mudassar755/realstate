@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -61,9 +62,11 @@ export default function Home() {
                   <h2 className='service-heading'>
                   What We Do
                   </h2>
-                  <a href='/' className='viewall-link'>
+                  <Link href="/">
+                  <a className='viewall-link'>
                     View all
                   </a>
+                  </Link>
                 </div>
                 <Row>
                   <Col md={4} lg={4} sm={6}>
@@ -104,9 +107,11 @@ export default function Home() {
                   <h2 className='service-heading'>
                     Design services
                   </h2>
-                  <a href='/' className='viewall-link'>
-                    View all design services
+                  <Link href="/">
+                  <a className='viewall-link'>
+                  View all design services
                   </a>
+                 </Link>
                 </div>
                 <Row>
                   <Col md={4} lg={4} sm={6}>
@@ -147,9 +152,11 @@ export default function Home() {
                   <h2 className='service-heading'>
                     Development services
                   </h2>
-                  <a href='/' className='viewall-link'>
-                    View all development services
+                  <Link href="/">
+                  <a className='viewall-link'>
+                  View all development services
                   </a>
+                 </Link>
                 </div>
                 <Row>
                   <Col md={4} lg={4} sm={6}>
@@ -201,9 +208,11 @@ export default function Home() {
                   <h2 className='service-heading'>
                     Clients
                   </h2>
-                  <a href='/' className='viewall-link'>
-                    View all
+                  <Link href="/">
+                  <a className='viewall-link'>
+                  View all
                   </a>
+                 </Link>
                 </div>
                 <Row>
                   <Col md={3} lg={3} sm={6} xs={6} className="mt-3">
@@ -255,9 +264,11 @@ export default function Home() {
                   <h2 className='service-heading'>
                   Testimonials
                   </h2>
-                  <a href='/' className='viewall-link'>
-                    View all
+                  <Link href="/">
+                  <a className='viewall-link'>
+                  View all
                   </a>
+                 </Link>
                 </div>
                 <Row>
                   <Col md={6} lg={6} sm={6} className="mt-3">
